@@ -54,7 +54,7 @@ public class AcController {
 		return as.getMax();
 	}
 
-	@GetMapping(value = "/min")
+	@GetMapping(value = "/minimum")
 	public AcEntity getMin() {
 		return as.getMin();
 	}
